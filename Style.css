@@ -1,4 +1,4 @@
-body {
+      body {
 	background-color:lightblue;
 	animation-name:test;
 	animation-duration:4s;
@@ -8,9 +8,9 @@ body {
 	-webkit-animation-duration:4s;
 	-webkit-animation-iteration-count:infinite;
 	-webkit-animation-delay:2s;
-}
+      }
 
-@keyframes test {
+      @keyframes test {
 	0% {
 		background-color:red;
 	}
@@ -26,4 +26,4 @@ body {
 	100% {
 		background-color:darkblue;
 	}
-}
+       }
