@@ -1,0 +1,29 @@
+body {
+	background-color:lightblue;
+	animation-name:test;
+	animation-duration:4s;
+	animation-iteration-count:infinite ;
+	animation-delay:2s;
+	-webkit-animation-name:test;
+	-webkit-animation-duration:4s;
+	-webkit-animation-iteration-count:infinite;
+	-webkit-animation-delay:2s;
+}
+
+@keyframes test {
+	0% {
+		background-color:red;
+	}
+	25% {
+		background-color:green;
+	}
+	50% {
+		background-color:pink;
+	}
+	85% {
+		background-color:blue;
+	}			
+	100% {
+		background-color:darkblue;
+	}
+}
